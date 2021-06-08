@@ -1,0 +1,1598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>937</width>
+    <height>646</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(57, 57, 57);
+selection-background-color: rgb(153, 153, 153);
+border-color: rgb(39, 39, 39)</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2" stretch="2,1">
+    <item>
+     <layout class="QHBoxLayout" name="Upper_Windows" stretch="2,0,2">
+      <property name="spacing">
+       <number>10</number>
+      </property>
+      <item>
+       <widget class="QFrame" name="vtk_frame1">
+        <property name="cursor">
+         <cursorShape>SizeAllCursor</cursorShape>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <property name="spacing">
+         <number>2</number>
+        </property>
+        <property name="sizeConstraint">
+         <enum>QLayout::SetDefaultConstraint</enum>
+        </property>
+        <item>
+         <spacer name="verticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Fixed</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>100</width>
+            <height>50</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="pickerBoxes">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="acceptDrops">
+           <bool>false</bool>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QGroupBox 
+{
+	border: 1px solid rgb(30, 30, 30);
+}</string>
+          </property>
+          <property name="title">
+           <string> Vertebrae Picker  </string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+          <property name="checkable">
+           <bool>false</bool>
+          </property>
+          <widget class="QCheckBox" name="checkBox_16">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>97</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QCheckBox::checked {
+	color: rgb(85, 170, 255);
+}
+QCheckBox::unchecked {
+	color: rgb(0, 0, 0);
+}
+QCheckBox::unchecked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::unchecked:pressed {
+	color: rgb(64, 129, 193);
+}
+QCheckBox::checked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::checked:pressed {
+	color: rgb(64, 129, 193);
+}</string>
+           </property>
+           <property name="text">
+            <string>Vertebrae 16</string>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="checkBox_17">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>50</y>
+             <width>97</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QCheckBox::checked {
+	color: rgb(85, 170, 255);
+}
+QCheckBox::unchecked {
+	color: rgb(0, 0, 0);
+}
+QCheckBox::unchecked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::unchecked:pressed {
+	color: rgb(64, 129, 193);
+}
+QCheckBox::checked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::checked:pressed {
+	color: rgb(64, 129, 193);
+}</string>
+           </property>
+           <property name="text">
+            <string>Vertebrae 17</string>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="checkBox_18">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>70</y>
+             <width>97</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QCheckBox::checked {
+	color: rgb(85, 170, 255);
+}
+QCheckBox::unchecked {
+	color: rgb(0, 0, 0);
+}
+QCheckBox::unchecked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::unchecked:pressed {
+	color: rgb(64, 129, 193);
+}
+QCheckBox::checked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::checked:pressed {
+	color: rgb(64, 129, 193);
+}</string>
+           </property>
+           <property name="text">
+            <string>Vertebrae 18</string>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="checkBox_19">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>90</y>
+             <width>97</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QCheckBox::checked {
+	color: rgb(85, 170, 255);
+}
+QCheckBox::unchecked {
+	color: rgb(0, 0, 0);
+}
+QCheckBox::unchecked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::unchecked:pressed {
+	color: rgb(64, 129, 193);
+}
+QCheckBox::checked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::checked:pressed {
+	color: rgb(64, 129, 193);
+}</string>
+           </property>
+           <property name="text">
+            <string>Vertebrae 19</string>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="checkBox_20">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>110</y>
+             <width>97</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QCheckBox::checked {
+	color: rgb(85, 170, 255);
+}
+QCheckBox::unchecked {
+	color: rgb(0, 0, 0);
+}
+QCheckBox::unchecked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::unchecked:pressed {
+	color: rgb(64, 129, 193);
+}
+QCheckBox::checked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::checked:pressed {
+	color: rgb(64, 129, 193);
+}</string>
+           </property>
+           <property name="text">
+            <string>Vertebrae 20</string>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="checkBox_21">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>130</y>
+             <width>97</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QCheckBox::checked {
+	color: rgb(85, 170, 255);
+}
+QCheckBox::unchecked {
+	color: rgb(0, 0, 0);
+}
+QCheckBox::unchecked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::unchecked:pressed {
+	color: rgb(64, 129, 193);
+}
+QCheckBox::checked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::checked:pressed {
+	color: rgb(64, 129, 193);
+}</string>
+           </property>
+           <property name="text">
+            <string>Vertebrae 21</string>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="checkBox_22">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>150</y>
+             <width>97</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QCheckBox::checked {
+	color: rgb(85, 170, 255);
+}
+QCheckBox::unchecked {
+	color: rgb(0, 0, 0);
+}
+QCheckBox::unchecked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::unchecked:pressed {
+	color: rgb(64, 129, 193);
+}
+QCheckBox::checked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::checked:pressed {
+	color: rgb(64, 129, 193);
+}</string>
+           </property>
+           <property name="text">
+            <string>Vertebrae 22</string>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="checkBox_23">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>170</y>
+             <width>97</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QCheckBox::checked {
+	color: rgb(85, 170, 255);
+}
+QCheckBox::unchecked {
+	color: rgb(0, 0, 0);
+}
+QCheckBox::unchecked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::unchecked:pressed {
+	color: rgb(64, 129, 193);
+}
+QCheckBox::checked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::checked:pressed {
+	color: rgb(64, 129, 193);
+}</string>
+           </property>
+           <property name="text">
+            <string>Vertebrae 23</string>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="checkBox_24">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>190</y>
+             <width>97</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QCheckBox::checked {
+	color: rgb(85, 170, 255);
+}
+QCheckBox::unchecked {
+	color: rgb(0, 0, 0);
+}
+QCheckBox::unchecked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::unchecked:pressed {
+	color: rgb(64, 129, 193);
+}
+QCheckBox::checked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::checked:pressed {
+	color: rgb(64, 129, 193);
+}</string>
+           </property>
+           <property name="text">
+            <string>Vertebrae 24</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="all_pushButton">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>230</y>
+             <width>75</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton::hover {
+	color: rgb(255, 255, 255);
+}
+QPushButton::pressed {
+	color: rgb(85, 170, 255);
+}</string>
+           </property>
+           <property name="text">
+            <string>Check All</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="clear_pushButton">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>260</y>
+             <width>75</width>
+             <height>23</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton::hover {
+	color: rgb(255, 255, 255);
+}
+QPushButton::pressed {
+	color: rgb(85, 170, 255);
+}</string>
+           </property>
+           <property name="text">
+            <string>Clear</string>
+           </property>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Fixed</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>30</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QFrame" name="vtk_frame2">
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>SizeAllCursor</cursorShape>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>10</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QGroupBox" name="groupBox">
+          <property name="palette">
+           <palette>
+            <active>
+             <colorrole role="Button">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>57</red>
+                <green>57</green>
+                <blue>57</blue>
+               </color>
+              </brush>
+             </colorrole>
+             <colorrole role="Base">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>57</red>
+                <green>57</green>
+                <blue>57</blue>
+               </color>
+              </brush>
+             </colorrole>
+             <colorrole role="Window">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>57</red>
+                <green>57</green>
+                <blue>57</blue>
+               </color>
+              </brush>
+             </colorrole>
+             <colorrole role="Highlight">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>153</red>
+                <green>153</green>
+                <blue>153</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </active>
+            <inactive>
+             <colorrole role="Button">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>57</red>
+                <green>57</green>
+                <blue>57</blue>
+               </color>
+              </brush>
+             </colorrole>
+             <colorrole role="Base">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>57</red>
+                <green>57</green>
+                <blue>57</blue>
+               </color>
+              </brush>
+             </colorrole>
+             <colorrole role="Window">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>57</red>
+                <green>57</green>
+                <blue>57</blue>
+               </color>
+              </brush>
+             </colorrole>
+             <colorrole role="Highlight">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>153</red>
+                <green>153</green>
+                <blue>153</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </inactive>
+            <disabled>
+             <colorrole role="Button">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>57</red>
+                <green>57</green>
+                <blue>57</blue>
+               </color>
+              </brush>
+             </colorrole>
+             <colorrole role="Base">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>57</red>
+                <green>57</green>
+                <blue>57</blue>
+               </color>
+              </brush>
+             </colorrole>
+             <colorrole role="Window">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>57</red>
+                <green>57</green>
+                <blue>57</blue>
+               </color>
+              </brush>
+             </colorrole>
+             <colorrole role="Highlight">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>153</red>
+                <green>153</green>
+                <blue>153</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </disabled>
+           </palette>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QGroupBox 
+{
+	border: 1px solid rgb(30, 30, 30);
+}</string>
+          </property>
+          <property name="title">
+           <string>Options</string>
+          </property>
+          <widget class="QCheckBox" name="ano_checkBox">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>40</y>
+             <width>101</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="statusTip">
+            <string>Puts a notation for each vertebrae. (Shortcut: &quot;N&quot;)</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QCheckBox::checked {
+	color: rgb(85, 170, 255);
+}
+QCheckBox::unchecked {
+	color: rgb(0, 0, 0);
+}
+QCheckBox::unchecked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::unchecked:pressed {
+	color: rgb(64, 129, 193);
+}
+QCheckBox::checked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::checked:pressed {
+	color: rgb(64, 129, 193);
+}</string>
+           </property>
+           <property name="text">
+            <string>Anotations</string>
+           </property>
+           <property name="shortcut">
+            <string>N</string>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="segCol_checkBox">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>70</y>
+             <width>181</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="statusTip">
+            <string>Separates the Vertebraes by color in the surface image. (Shortcut: &quot;C&quot;)</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QCheckBox::checked {
+	color: rgb(85, 170, 255);
+}
+QCheckBox::unchecked {
+	color: rgb(0, 0, 0);
+}
+QCheckBox::unchecked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::unchecked:pressed {
+	color: rgb(64, 129, 193);
+}
+QCheckBox::checked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::checked:pressed {
+	color: rgb(64, 129, 193);
+}</string>
+           </property>
+           <property name="text">
+            <string>Segmentation Coloring</string>
+           </property>
+           <property name="shortcut">
+            <string>C</string>
+           </property>
+          </widget>
+          <widget class="QCheckBox" name="rot_checkBox">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>100</y>
+             <width>181</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="statusTip">
+            <string>Rotates the surface image. (Shortcut: &quot;R&quot;)</string>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QCheckBox::checked {
+	color: rgb(85, 170, 255);
+}
+QCheckBox::unchecked {
+	color: rgb(0, 0, 0);
+}
+QCheckBox::unchecked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::unchecked:pressed {
+	color: rgb(64, 129, 193);
+}
+QCheckBox::checked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::checked:pressed {
+	color: rgb(64, 129, 193);
+}</string>
+           </property>
+           <property name="text">
+            <string>Automatic Rotation</string>
+           </property>
+           <property name="shortcut">
+            <string>R</string>
+           </property>
+          </widget>
+          <widget class="QGroupBox" name="groupBox_2">
+           <property name="geometry">
+            <rect>
+             <x>240</x>
+             <y>30</y>
+             <width>171</width>
+             <height>131</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QGroupBox 
+{
+	border: 1px solid rgb(85, 170, 255);
+	color: rgb(85, 170, 255);
+}
+</string>
+           </property>
+           <property name="title">
+            <string>Plane Cutter Normal</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+           <widget class="QRadioButton" name="x_radioButton">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>40</y>
+              <width>41</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QRadioButton::checked {
+	color: rgb(85, 170, 255);
+}
+QRadioButton::unchecked {
+	color: rgb(0, 0, 0);
+}
+QRadioButton::unchecked:hover {
+	color: rgb(255, 255, 255);
+}
+QRadioButton::unchecked:pressed {
+	color: rgb(64, 129, 193);
+}</string>
+            </property>
+            <property name="text">
+             <string>X</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">planeNormal_group</string>
+            </attribute>
+           </widget>
+           <widget class="QRadioButton" name="y_radioButton">
+            <property name="geometry">
+             <rect>
+              <x>70</x>
+              <y>40</y>
+              <width>41</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QRadioButton::checked {
+	color: rgb(85, 170, 255);
+}
+QRadioButton::unchecked {
+	color: rgb(0, 0, 0);
+}
+QRadioButton::unchecked:hover {
+	color: rgb(255, 255, 255);
+}
+QRadioButton::unchecked:pressed {
+	color: rgb(64, 129, 193);
+}</string>
+            </property>
+            <property name="text">
+             <string>Y</string>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">planeNormal_group</string>
+            </attribute>
+           </widget>
+           <widget class="QRadioButton" name="z_radioButton">
+            <property name="geometry">
+             <rect>
+              <x>120</x>
+              <y>40</y>
+              <width>41</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QRadioButton::checked {
+	color: rgb(85, 170, 255);
+}
+QRadioButton::unchecked {
+	color: rgb(0, 0, 0);
+}
+QRadioButton::unchecked:hover {
+	color: rgb(255, 255, 255);
+}
+QRadioButton::unchecked:pressed {
+	color: rgb(64, 129, 193);
+}</string>
+            </property>
+            <property name="text">
+             <string>Z</string>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+            <attribute name="buttonGroup">
+             <string notr="true">planeNormal_group</string>
+            </attribute>
+           </widget>
+           <widget class="QCheckBox" name="invert_checkBox">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>80</y>
+              <width>101</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QCheckBox::checked {
+	color: rgb(85, 170, 255);
+}
+QCheckBox::unchecked {
+	color: rgb(0, 0, 0);
+}
+QCheckBox::unchecked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::unchecked:pressed {
+	color: rgb(64, 129, 193);
+}
+QCheckBox::checked:hover {
+	color: rgb(255, 255, 255);
+}
+QCheckBox::checked:pressed {
+	color: rgb(64, 129, 193);
+}</string>
+            </property>
+            <property name="text">
+             <string>Invert</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QCheckBox" name="stereo_checkBox">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>130</y>
+             <width>138</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="toolTip">
+            <string/>
+           </property>
+           <property name="statusTip">
+            <string>Enable/disable &quot;Crystal Eyes&quot; stereorendering</string>
+           </property>
+           <property name="text">
+            <string>Stereo Rendering</string>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <property name="spacing">
+         <number>15</number>
+        </property>
+        <property name="topMargin">
+         <number>10</number>
+        </property>
+        <item>
+         <layout class="QFormLayout" name="formLayout_2">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetDefaultConstraint</enum>
+          </property>
+          <property name="fieldGrowthPolicy">
+           <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+          </property>
+          <property name="rowWrapPolicy">
+           <enum>QFormLayout::DontWrapRows</enum>
+          </property>
+          <item row="0" column="0">
+           <widget class="QLabel" name="opacity_label">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Opacity</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="colorMode_label">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Colormap</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="color_label">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Color Value</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QSlider" name="color_slider">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QSlider::groove:horizontal {
+border: 1px solid #bbb;
+background: white;
+height: 10px;
+border-radius: 4px;
+}
+
+QSlider::sub-page:horizontal {
+background: qlineargradient(x1: 0, y1: 0,    x2: 0, y2: 1,
+    stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+background: qlineargradient(x1: 0, y1: 0.2, x2: 1, y2: 1,
+    stop: 0 rgb(85, 170, 255), stop: 1 rgb(31, 63, 95));
+border: 1px solid #513105;
+height: 10px;
+border-radius: 4px;
+}
+
+QSlider::add-page:horizontal {
+background: #fff;
+border: 1px solid #777;
+height: 10px;
+border-radius: 4px;
+}
+
+QSlider::handle:horizontal {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+    stop:0 #eee, stop:1 #ccc);
+border: 1px solid #777;
+width: 13px;
+margin-top: -2px;
+margin-bottom: -2px;
+border-radius: 4px;
+}
+
+QSlider::handle:horizontal:hover {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+    stop:0 #fff, stop:1 #ddd);
+border: 1px solid #444;
+border-radius: 4px;
+}
+
+QSlider::sub-page:horizontal:disabled {
+background: #bbb;
+border-color: #999;
+}
+
+QSlider::add-page:horizontal:disabled {
+background: #eee;
+border-color: #999;
+}
+
+QSlider::handle:horizontal:disabled {
+background: #eee;
+border: 1px solid #aaa;
+border-radius: 4px;
+}</string>
+            </property>
+            <property name="minimum">
+             <number>100</number>
+            </property>
+            <property name="maximum">
+             <number>256</number>
+            </property>
+            <property name="singleStep">
+             <number>1</number>
+            </property>
+            <property name="value">
+             <number>100</number>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="invertedAppearance">
+             <bool>false</bool>
+            </property>
+            <property name="tickPosition">
+             <enum>QSlider::TicksBelow</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QRadioButton" name="bone_radioButton">
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QRadioButton::checked {
+	color: rgb(85, 170, 255);
+}
+QRadioButton::unchecked {
+	color: rgb(0, 0, 0);
+}
+QRadioButton::unchecked:hover {
+	color: rgb(255, 255, 255);
+}
+QRadioButton::unchecked:pressed {
+	color: rgb(64, 129, 193);
+}</string>
+              </property>
+              <property name="text">
+               <string>Bone</string>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">colormap_group</string>
+              </attribute>
+             </widget>
+            </item>
+            <item>
+             <widget class="QRadioButton" name="jet_radioButton">
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QRadioButton::checked {
+	color: rgb(85, 170, 255);
+}
+QRadioButton::unchecked {
+	color: rgb(0, 0, 0);
+}
+QRadioButton::unchecked:hover {
+	color: rgb(255, 255, 255);
+}
+QRadioButton::unchecked:pressed {
+	color: rgb(64, 129, 193);
+}</string>
+              </property>
+              <property name="text">
+               <string>Jet</string>
+              </property>
+              <attribute name="buttonGroup">
+               <string notr="true">colormap_group</string>
+              </attribute>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="cutter_label">
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>P.C. Position</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QSlider" name="opacity_slider">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="palette">
+             <palette>
+              <active>
+               <colorrole role="Button">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>57</red>
+                  <green>57</green>
+                  <blue>57</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="Base">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>57</red>
+                  <green>57</green>
+                  <blue>57</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="Window">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>57</red>
+                  <green>57</green>
+                  <blue>57</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="Highlight">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>153</red>
+                  <green>153</green>
+                  <blue>153</blue>
+                 </color>
+                </brush>
+               </colorrole>
+              </active>
+              <inactive>
+               <colorrole role="Button">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>57</red>
+                  <green>57</green>
+                  <blue>57</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="Base">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>57</red>
+                  <green>57</green>
+                  <blue>57</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="Window">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>57</red>
+                  <green>57</green>
+                  <blue>57</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="Highlight">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>153</red>
+                  <green>153</green>
+                  <blue>153</blue>
+                 </color>
+                </brush>
+               </colorrole>
+              </inactive>
+              <disabled>
+               <colorrole role="Button">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>57</red>
+                  <green>57</green>
+                  <blue>57</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="Base">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>57</red>
+                  <green>57</green>
+                  <blue>57</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="Window">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>57</red>
+                  <green>57</green>
+                  <blue>57</blue>
+                 </color>
+                </brush>
+               </colorrole>
+               <colorrole role="Highlight">
+                <brush brushstyle="SolidPattern">
+                 <color alpha="255">
+                  <red>153</red>
+                  <green>153</green>
+                  <blue>153</blue>
+                 </color>
+                </brush>
+               </colorrole>
+              </disabled>
+             </palette>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QSlider::groove:horizontal {
+border: 1px solid #bbb;
+background: white;
+height: 10px;
+border-radius: 4px;
+}
+
+QSlider::sub-page:horizontal {
+background: qlineargradient(x1: 0, y1: 0,    x2: 0, y2: 1,
+    stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+background: qlineargradient(x1: 0, y1: 0.2, x2: 1, y2: 1,
+    stop: 0 rgb(85, 170, 255), stop: 1 rgb(31, 63, 95));
+border: 1px solid #513105;
+height: 10px;
+border-radius: 4px;
+}
+
+QSlider::add-page:horizontal {
+background: #fff;
+border: 1px solid #777;
+height: 10px;
+border-radius: 4px;
+}
+
+QSlider::handle:horizontal {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+    stop:0 #eee, stop:1 #ccc);
+border: 1px solid #777;
+width: 13px;
+margin-top: -2px;
+margin-bottom: -2px;
+border-radius: 4px;
+}
+
+QSlider::handle:horizontal:hover {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+    stop:0 #fff, stop:1 #ddd);
+border: 1px solid #444;
+border-radius: 4px;
+}
+
+QSlider::sub-page:horizontal:disabled {
+background: #bbb;
+border-color: #999;
+}
+
+QSlider::add-page:horizontal:disabled {
+background: #eee;
+border-color: #999;
+}
+
+QSlider::handle:horizontal:disabled {
+background: #eee;
+border: 1px solid #aaa;
+border-radius: 4px;
+}</string>
+            </property>
+            <property name="minimum">
+             <number>0</number>
+            </property>
+            <property name="maximum">
+             <number>850</number>
+            </property>
+            <property name="singleStep">
+             <number>1</number>
+            </property>
+            <property name="pageStep">
+             <number>10</number>
+            </property>
+            <property name="value">
+             <number>850</number>
+            </property>
+            <property name="sliderPosition">
+             <number>850</number>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="invertedAppearance">
+             <bool>true</bool>
+            </property>
+            <property name="invertedControls">
+             <bool>false</bool>
+            </property>
+            <property name="tickPosition">
+             <enum>QSlider::TicksBelow</enum>
+            </property>
+            <property name="tickInterval">
+             <number>100</number>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QSlider" name="cutter_slider">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QSlider::groove:horizontal {
+border: 1px solid #bbb;
+background: white;
+height: 10px;
+border-radius: 4px;
+}
+
+QSlider::sub-page:horizontal {
+background: qlineargradient(x1: 0, y1: 0,    x2: 0, y2: 1,
+    stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+background: qlineargradient(x1: 0, y1: 0.2, x2: 1, y2: 1,
+    stop: 0 rgb(85, 170, 255), stop: 1 rgb(31, 63, 95));
+border: 1px solid #513105;
+height: 10px;
+border-radius: 4px;
+}
+
+QSlider::add-page:horizontal {
+background: #fff;
+border: 1px solid #777;
+height: 10px;
+border-radius: 4px;
+}
+
+QSlider::handle:horizontal {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+    stop:0 #eee, stop:1 #ccc);
+border: 1px solid #777;
+width: 13px;
+margin-top: -2px;
+margin-bottom: -2px;
+border-radius: 4px;
+}
+
+QSlider::handle:horizontal:hover {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+    stop:0 #fff, stop:1 #ddd);
+border: 1px solid #444;
+border-radius: 4px;
+}
+
+QSlider::sub-page:horizontal:disabled {
+background: #bbb;
+border-color: #999;
+}
+
+QSlider::add-page:horizontal:disabled {
+background: #eee;
+border-color: #999;
+}
+
+QSlider::handle:horizontal:disabled {
+background: #eee;
+border: 1px solid #aaa;
+border-radius: 4px;
+}</string>
+            </property>
+            <property name="minimum">
+             <number>20</number>
+            </property>
+            <property name="maximum">
+             <number>130</number>
+            </property>
+            <property name="singleStep">
+             <number>1</number>
+            </property>
+            <property name="value">
+             <number>20</number>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="invertedAppearance">
+             <bool>false</bool>
+            </property>
+            <property name="tickPosition">
+             <enum>QSlider::TicksBelow</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>10</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>937</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuEdiit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+   </widget>
+   <addaction name="menuEdiit"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="colormap_group"/>
+  <buttongroup name="planeNormal_group"/>
+ </buttongroups>
+</ui>
